@@ -7,9 +7,16 @@ A custom AI agent skill designed to scaffold new projects, enforce architectural
 
 first clone the repo as a sub - module using the command-
 
-Using GIT
+Using GIT - if you want to see the detailed repo clone it 
 git submodule add https://github.com/abhiuk00777/my-custom-skill
 
 
-Using Node 
+Using Node on terminal 
 npm install github:abhiuk00777/my-custom-skill
+
+After the Npm Install Command  run the command below
+cp -f node_modules/my-custom-skill/AGENTS.md ./
+
+Now you are ready to start using the claude in the best possible form.
+
+
