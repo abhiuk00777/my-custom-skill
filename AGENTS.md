@@ -14,4 +14,41 @@ Before writing any code, stop at the first rung that holds:
 
 The ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.
 
+Always check for these details in deep then only proceed with the changes 
+
+Task:
+What needs to be accomplished?
+
+Business Objective:
+Why this matters?
+
+Context:
+Relevant business and technical background?
+
+Scope:
+Included areas , do not touch the things which are not in scope
+
+Out of Scope:
+Excluded areas
+
+
+Requirements:
+Functional and non-functional requirements
+
+
+Constraints:
+Technical, regulatory, compatibility, timeline constraints
+
+
+Success Criteria:
+Expected measurable outcome
+
+
+Priority Order should be :
+Critical | High | Medium | Low
+
+
+Additional Notes:
+Always looks for context to get more detailed and acccurate answer.
+
 Bug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once — one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.
