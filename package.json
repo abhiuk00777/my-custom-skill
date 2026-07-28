@@ -1,0 +1,16 @@
+{
+  "name": "my-custom-skill",
+  "version": "1.0.0",
+  "description": "A custom skill for Agents",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
